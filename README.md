@@ -28,7 +28,7 @@ composer test
 Any text file containing Robot commands can be used.
 
 ``` bash
-php toy-robot.php commands/corner-to-corner
+php bike-driving.php commands/corner-to-corner
 ```
 
 ### Commands
