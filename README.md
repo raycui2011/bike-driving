@@ -25,7 +25,7 @@ composer test
 
 ### Usage
 
-Any text file containing Robot commands can be used.
+Any text file containing Bike commands can be used.
 
 ``` bash
 php bike-driving.php commands/corner-to-corner
@@ -33,7 +33,7 @@ php bike-driving.php commands/corner-to-corner
 
 ### Commands
 
-The following commands will be accepted by the Robot. Invalid or
+The following commands will be accepted by the Bike. Invalid or
 incomplete commands will be ignored.
 
 ```
@@ -48,12 +48,12 @@ GRS_REPORT
 
 The `PLACE` command takes three arguments `X,Y,DIR`. `X` and `Y` give
 the Bike's position and `DIR` gives the compass direction that it will
-face. The Robot will ignore any other command if it is not yet placed.
+face. The Bike will ignore any other command if it is not yet placed.
 
 #### FORWARD
 
-`MOVE` will ask the Robot to change it's position one unit in the 
-direction it's facing. Optionally, you can ask the Robot to move
+`MOVE` will ask the Bike to change it's position one unit in the 
+direction it's facing. Optionally, you can ask the Bike to move
 multiple units by providing the `STEPS` argument.
 
 #### TURN_LFET and TURN_RIGTH
